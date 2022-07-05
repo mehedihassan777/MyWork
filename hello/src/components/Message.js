@@ -3,14 +3,14 @@ import React,{Component} from "react";
 class Message extends Component {
     constructor(){
         super()
-        this.state() = {
-            message= "Welcome Visitor"
+        this.state = {
+            message : "Welcome Visitor"
         }
     }
 
     changeMessage(){
         this.setState({
-            message = "Thank's for subscribe"
+            message: "Thank's for subscribe"
         })
     }
 
