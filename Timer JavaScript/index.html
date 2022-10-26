@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Timer</title>
+	<style>
+		body {
+			margin: 20% 10%;
+  			display: flex;
+        	justify-content: space-between;
+		}
+		.start {
+  			background-color: #4CAF50; /* Green */
+  			border: none;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+		}
+		.button3 {background-color: #f44336;}
+		input[type=text] {
+  			padding: 12px 20px;
+  			box-sizing: border-box;
+  			border: 2px solid #555;
+  			outline: none;
+		}
+
+		input[type=text]:focus {
+  			background-color: lightblue;
+		}
+	</style>
+	</head>
+<body >
+	<button class="start" type="button" onclick="start()">Start</button>
+	H:<input type="number" id="h">
+	M:<input type="number" id="m">
+	S:<input type="number" id="s">
+	<button class="start button3" type="button" onclick="stop()">Pause</button>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
