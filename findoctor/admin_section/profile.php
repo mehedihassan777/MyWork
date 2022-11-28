@@ -1,0 +1,9 @@
+<?php 
+	session_start();
+	if($_SESSION['role']=="admin")
+		header("location:admin/index.php");
+	elseif($_SESSION['role']=="doctor")
+		header("location:doctor/index.php");
+	elseif($_SESSION['role']=="user")
+		header("location:user/index.php");
+?>
